@@ -24,6 +24,7 @@ namespace Project_Rock_Paper_Scissors
                 Console.ResetColor();
 
                 string playerMove = Console.ReadLine();
+                Console.WriteLine();
 
                 // Convert player input to standardized format
                 if (playerMove == "r" || playerMove == "rock")
@@ -98,6 +99,7 @@ namespace Project_Rock_Paper_Scissors
                     Console.ResetColor();
                     drawGames++;
                 }
+                Console.WriteLine();
 
                 // Display current statistics
                 Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -106,6 +108,7 @@ namespace Project_Rock_Paper_Scissors
                 Console.WriteLine($"Computer Won: {computerWins} times");
                 Console.WriteLine($"The game was Even: {drawGames} times");
                 Console.ResetColor();
+                Console.WriteLine();
 
                 // Prompt player to play again
                 Console.ForegroundColor = ConsoleColor.Cyan;
@@ -119,9 +122,11 @@ namespace Project_Rock_Paper_Scissors
                 if (playAgain == "n" || playAgain == "no")
                 {
                     // Player chose not to play again; end the game
+                    Console.WriteLine();                    
                     Console.WriteLine("Thank you for playing!");
                     break;
                 }
+                Console.WriteLine();
             }
         }
     }
