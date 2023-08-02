@@ -47,3 +47,10 @@ Using Visual Studio with .NET Core 3.1
 ## Screenshot Example
 
 ![image](https://github.com/Peshote/Rock-Paper-Scissors-Game/assets/124620028/b0a69e95-6ca6-4b42-a26c-6540e7bc1771)
+
+
+## ⚡Live Demo
+
+You can play the game directly in your Web Browser here:
+
+<a href="https://replit.com/@Peshote/The-Rock-Paper-Scissors-Game#Main.cs" rel="Run"><img alt="Play Button" width="150px" src="https://user-images.githubusercontent.com/124620028/257953242-0f9cadaa-da43-430f-88cf-415f37b88ba4.png" />
