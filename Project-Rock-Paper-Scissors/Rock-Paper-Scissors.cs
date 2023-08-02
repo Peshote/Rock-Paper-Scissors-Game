@@ -69,14 +69,14 @@ namespace Project_Rock_Paper_Scissors
                 if ((playerMove == Rock && computerMove == Scissors) || (playerMove == Paper && computerMove == Rock) || (playerMove == Scissors && computerMove == Paper))
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("You win!");
+                    Console.WriteLine("You Win!");
                     Console.ResetColor();
                     playerWins++;
                 }
                 else if ((playerMove == Rock && computerMove == Paper) || (playerMove == Paper && computerMove == Scissors) || (playerMove == Scissors && computerMove == Rock))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("You lose!");
+                    Console.WriteLine("You Lose!");
                     Console.ResetColor();
                     computerWins++;
                 }
@@ -90,9 +90,9 @@ namespace Project_Rock_Paper_Scissors
 
                 Console.ForegroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("Current Statistic:");
-                Console.WriteLine($"You won: {playerWins} times");
-                Console.WriteLine($"Computer won: {computerWins} times");
-                Console.WriteLine($"The game was even: {drawGames} times");
+                Console.WriteLine($"You Won: {playerWins} times");
+                Console.WriteLine($"Computer Won: {computerWins} times");
+                Console.WriteLine($"The game was Even: {drawGames} times");
                 Console.ResetColor();
 
                 Console.ForegroundColor = ConsoleColor.Cyan;
