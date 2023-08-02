@@ -6,6 +6,10 @@ namespace Project_Rock_Paper_Scissors
     {
         static void Main(string[] args)
         {
+            int playerWins = 0;
+            int computerWins = 0;
+            int drawGames = 0;
+
             while (true)
             {
                 const string Rock = "Rock";
@@ -56,7 +60,7 @@ namespace Project_Rock_Paper_Scissors
                     case 3:
                         computerMove = Scissors;
                         break;
-                }
+                }                
 
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"The computer chose: {computerMove}.");
@@ -67,20 +71,31 @@ namespace Project_Rock_Paper_Scissors
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("You win!");
                     Console.ResetColor();
+                    playerWins++;
                 }
                 else if ((playerMove == Rock && computerMove == Paper) || (playerMove == Paper && computerMove == Scissors) || (playerMove == Scissors && computerMove == Rock))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("You lose!");
                     Console.ResetColor();
+                    computerWins++;
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("It's a Draw!");
                     Console.ResetColor();
+                    drawGames++;
                 }
 
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("Current Statistic:");
+                Console.WriteLine($"You won: {playerWins} times");
+                Console.WriteLine($"Computer won: {computerWins} times");
+                Console.WriteLine($"The game was even: {drawGames} times");
+                Console.ResetColor();
+
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 string playAgain;
                 do
                 {
