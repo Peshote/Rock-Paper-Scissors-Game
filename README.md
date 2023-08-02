@@ -1,2 +1,2 @@
 # Rock, Paper, Scissors - Game
-Side Project Game - Rock Paper Scissors
+Side Project Game - Rock, Paper, Scissors
