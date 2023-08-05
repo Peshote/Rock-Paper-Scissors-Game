@@ -65,4 +65,4 @@ These programming concepts work together to create the functionality of the Rock
 
 You can play the game directly in your Web Browser here:
 
-<a href="https://replit.com/@Peshote/The-Rock-Paper-Scissors-Game#Main.cs" rel="Run"><img alt="Play Button" width="150px" src="https://user-images.githubusercontent.com/124620028/257953242-0f9cadaa-da43-430f-88cf-415f37b88ba4.png" />
+<a href="https://replit.com/@Peshote/The-Rock-Paper-Scissors-Game" rel="Run"><img alt="Play Button" width="150px" src="https://user-images.githubusercontent.com/124620028/257953242-0f9cadaa-da43-430f-88cf-415f37b88ba4.png" />
